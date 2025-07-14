@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.pages.WebTablePage">
+      <class name="com.pages.Windows_page">
         <methods>
-          <include name="deleteAction"/>
+          <include name="tab2"/>
+          <include name="tab3"/>
           <include name="SetUp"/>
-          <include name="TearDown"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.pages.WebTablePage -->
+      </class> <!-- com.pages.Windows_page -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
