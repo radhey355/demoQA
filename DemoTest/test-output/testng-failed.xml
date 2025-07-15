@@ -5,10 +5,9 @@
     <classes>
       <class name="com.pages.Windows_page">
         <methods>
-          <include name="tab2"/>
-          <include name="tab3"/>
           <include name="SetUp"/>
           <include name="tearDown"/>
+          <include name="tabs1"/>
         </methods>
       </class> <!-- com.pages.Windows_page -->
     </classes>
